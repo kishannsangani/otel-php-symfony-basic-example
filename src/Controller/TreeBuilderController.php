@@ -51,8 +51,6 @@ class TreeBuilderController extends AbstractController
      */
     public function index($width, $depth) : Response
     {
-        echo "width = ", $width . PHP_EOL;
-        echo "depth = ", $depth . PHP_EOL;
         date_default_timezone_set('Asia/Kolkata');
         $date = date('d/m/Y h:i:s a', time());
 
